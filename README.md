@@ -1,8 +1,9 @@
-# RGLayout - A Simple Flex Layout Library for Raylib & Raygui (C)
+# RGLayout - A Stuipd Simple Flex Layout Library for Raygui
+
+A lightweight immediate-mode layout library for building flexible UIs with Raylib. Made for creating responsive layouts without manual positioning.
 
 ![alt text](images/nested.png)
 
-A lightweight immediate-mode layout library for building flexible UIs with Raylib. Made for creating responsive layouts without manual positioning.
 
 ## Why?
 - Simple immediate mode flex layout library with minimal internal state
