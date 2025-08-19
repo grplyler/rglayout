@@ -63,7 +63,7 @@ typedef enum
 } RGLVAlign;
 
 // Padding for all four sides of a container
-typedef struct
+typedef struct RGLPad
 {
     float left;
     float top;
@@ -72,7 +72,7 @@ typedef struct
 } RGLPad;
 
 // Plan struct
-typedef struct
+typedef struct RGLPlan
 {
     float sizes[RGL_PLAN_MAX]; // Can you allocate a fixed-size array
     int length;      // Length of sizes array
@@ -83,7 +83,7 @@ typedef struct
 } RGLPlan;
 
 // Internal container state tracking layout progress
-typedef struct
+typedef struct RGLContainer
 {
     // Layout bounds
     Rectangle outer; // Original bounds including padding
@@ -108,7 +108,7 @@ typedef struct
 } RGLContainer;
 
 // Global layout state - stack of nested containers
-typedef struct
+typedef struct RGLState
 {
     RGLContainer stack[RGL_MAX_STACK];
     int top; // Current stack depth
