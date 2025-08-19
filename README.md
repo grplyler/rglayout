@@ -44,6 +44,22 @@ Just a few lines of code gets you a nice layout. Include the header and define t
 #include "rglayout.h"
 ```
 
+## Building
+
+```
+git clone https://github.com/grplyler/rglayout.git
+git submodule update --init --recursive
+cmake -B build
+cmake --build build
+```
+
+or the shell scripts:
+
+```
+./b
+./r
+```
+
 ### Simple Login Form Example
 
 ```c
@@ -260,14 +276,6 @@ GuiBeginRow(bounds, &plan);
 GuiLayoutEnd();
 ```
 
-## Building
-
-```
-git clone https://github.com/grplyler/rglayout.git
-git submodule update --init --recursive
-cmake -B build
-cmake --build build
-```
 
 ## Run Demos
 
