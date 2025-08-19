@@ -1,4 +1,6 @@
-# RGLayout - A Stuipd Simple Flex Layout Library for Raygui
+# RGLayout - A Stupid Simple Flex Layout Library for Raygui
+
+_Ported to C from my odin version (raylay)_
 
 A lightweight immediate-mode layout library for building flexible UIs with Raylib. Made for creating responsive layouts without manual positioning.
 
@@ -8,6 +10,7 @@ A lightweight immediate-mode layout library for building flexible UIs with Rayli
 ## Why?
 - Simple immediate mode flex layout library with minimal internal state
 - Ray's been looking for a good layout library for Raygui (potentially official integration)
+- Clay is nice, but more verbose, and less raylibby. I wanted something raylib native.
 - I wanted to build advanced faster that look good without manual positioning calculation and boilerplate
 - Originally written in Odin for my spectrum analyzer [spectro](https://github.com/grplyler/spectro)
 
