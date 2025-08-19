@@ -127,7 +127,7 @@ int main(void) {
 }
 ```
 
-![alt text](image.png)
+![alt text](images/login.png)
 
 ### 3-Panel Layout Example
 
